@@ -1,6 +1,9 @@
-AUTHOR = 'Noé'
-SITENAME = 'pfffffffffffffff'
+AUTHOR = 'N0E-P'
+SITENAME = 'Vive Léon Marchand!'
 SITEURL = ""
+
+THEME = 'tuxlite_zf' #'pelican-blue-master'
+LOAD_CONTENT_CACHE = False
 
 PATH = "content"
 
@@ -15,17 +18,15 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# # Blogroll
-# LINKS = (
-#     ("Pelican", "https://getpelican.com/"),
-#     ("Python.org", "https://www.python.org/"),
-#     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-#     ("You can modify those links in your config file", "#"),
-# )
+# Blogroll
+LINKS = (
+    ("Un exemple de site bien fait", "https://noe-pecci.com"),
+    ("Github", "https://github.com/N0E-P"),
+)
 
-# # Social widget
+# Social widget
 # SOCIAL = (
-#     ("You can add links in your config file", "#"),
+#     ("Github", "https://github.com/N0E-P"),
 #     ("Another social link", "#"),
 # )
 
